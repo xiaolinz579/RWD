@@ -1,1 +1,27 @@
 @charset "utf-8";
+.jb {
+	background-color: rgba(0,0,0,0.05);
+}
+.news24 .list-group-item-secondary {
+	background-color: rgba(0,0,0,0.05);
+}
+.cyc .form-control {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.cyc .btn {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.article .border-left {
+	border-left-width: 5px !important;
+	border-left-color: rgba(0,0,0,0.10)!important;
+}
+.yzm .form-control {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.yzm .btn {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}

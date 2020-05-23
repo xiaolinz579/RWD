@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hgb头条</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<!-- body code goes here -->
+<nav class="navbar navbar-expand-md navbar-light mb-3 bg-light border-bottom">
+  <div class="container"> <a href="zy4-完整版.html" class="navbar-brand">hgb头条</a> 
+    <!--导航中的logo-->
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#hgb-navbar"> 
+    <!--navbar-toggler:按钮变成响应式，在页面时隐藏，在手机时显示
+              data-toggle="collapse":用于触发下拉导航
+              data-target="#hgb-navbar":链接的id必须为下方的导航ID名相同
+--> 
+    <span class="navbar-toggler-icon"></span> 
+    <!--按钮中的三条线图标--> 
+    </button>
+    <div id="hgb-navbar" class="collapse navbar-collapse justify-content-between"> 
+      <!--id名可以自由选择，class中的类样式是官方默认，代表着当页面响应时导航塌陷收缩起来
+        justify-content-between:flex布局，让元素两端对齐
+-->
+      <div class="navbar-nav"> 
+        <!--导航组--> 
+        <a href="#" class="nav-item nav-link bg-dark text-white">首页</a> <a href="#" class="nav-item nav-link">国内</a> <a href="#" class="nav-item nav-link">国际</a> <a href="#" class="nav-item nav-link">数读</a> <a href="#" class="nav-item nav-link">社会</a> 
+        <!--导航项--> 
+      </div>
+      <div class="navbar-nav"> 
+        <!--导航组--> 
+        <a href="signup.html" class="nav-item nav-link">注册</a> <a href="login.html" class="nav-item nav-link">登录</a> 
+        <!--导航项--> 
+      </div>
+    </div>
+  </div>
+</nav>
+<!--这是页面的导航条--> 
+<!--
+               navbar:代表这是导航
+	  navbar-expand-md：代表在小于768像素宽度下时，导航开始收缩为按钮状态
+              bg-light:导航的背景为浅灰
+              navbar-light:导航的字体颜色为深灰色
+              mb-3:设置下边距
+-->
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-2 d-none d-md-block"></div>
+	      <div class="col-lg-6 col-md-8 col-sm-12">
+		<p class="h1"><span>登录</span> <span class="h3 text-secondary">没有账号？</span><a href="signup.html" class="h3 text-info">注册</a></p>
+         <form action="">
+         <div class="form-group">
+		   <label for="textfield">用户名/手机/邮箱</label>
+           <input type="text" name="username" id="username" class="form-control" placeholder="请输入您的账号">
+			 </div>
+		 <div class="form-group">
+		   <label for="textfield">密码</label>
+           <input type="password" name="pwd" id="pwd" class="form-control" placeholder="请输入您的密码">
+			 </div>
+	     <div class="form-check p-0">
+			 <input type="submit" value="登录" class="btn btn-danger btn-block">
+			 
+			 </div>
+			 <p><a href="">忘记密码？</a></p>
+		 
+	    </form>
+	  
+	  
+    </div><!--登录表单-->
+	    <div class="col-lg-3 col-md-2 d-none d-md-block"></div>
+	
+	</div>
+  <div class="row">
+
+    <div class="col-12 py-5 text-center text-black-50">1999-2020, ctrip.com. All rights reserved. | ICP证：沪B2-20050130 | 沪ICP备08023580号</div>
+  </div>
+</div>
+<!--约束了宽度的容器--> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.2.1.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
